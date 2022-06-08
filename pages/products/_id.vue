@@ -1,5 +1,6 @@
 <template>
   <div id="product">
+    <img :src="product.image" />
     {{ product }}
   </div>
 </template>
